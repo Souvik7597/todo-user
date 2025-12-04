@@ -22,7 +22,6 @@ export const verifyMail = async (token, email) => {
            Please follow the given link to verify your email
            http://localhost:5173/user/verify/${token} 
            Thanks`
-   
   };
 
   transporter.sendMail(mailConfigurations, function (error, info) {
