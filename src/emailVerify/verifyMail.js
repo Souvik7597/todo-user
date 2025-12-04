@@ -15,9 +15,9 @@ export const verifyMail = async (token, email) => {
   const mailConfigurations = {
     from: process.env.mailUser,
     to: email,
-    subject: "Email Verification!!!!!!!!!",
+    subject: "Email Verification",
     // text: `Hello User, Kindly Verify {{token}} `
-    text:`Hi! There, You have recently visited 
+    text: `Hi! There, You have recently visited 
            our website and entered your email.
            Please follow the given link to verify your email
            http://localhost:5173/user/verify/${token} 

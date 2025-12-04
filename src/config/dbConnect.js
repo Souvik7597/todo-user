@@ -7,6 +7,5 @@ export async function dbConnect() {
         console.log("MongoDb Connected");
     } catch (error) {
         console.log("Database Not Connected");
-        
     }
 }
